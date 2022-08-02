@@ -1,0 +1,302 @@
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: serif;
+        }
+        
+        .Fbar {
+            width: 100%;
+            height: 100vh;
+            font-size: 35px;
+            font-weight: bold;
+            margin-left: 20px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .navber {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100px;
+            padding: 10px 98px;
+            box-sizing: border-box;
+            background: #e10c0c;
+            border-bottom: 1px solid black;
+        }
+        
+        .logo a {
+            text-decoration: none;
+            color: #fff;
+            left: 10px;
+            font-size: 1.5rem;
+        }
+        
+        .menubar {
+            padding: 22px 20px;
+            height: 80px;
+            float: left;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: beige;
+        }
+        
+        .menubar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float: right;
+            display: flex;
+        }
+        
+        .menubar ul li a {
+            line-height: 20px;
+            color: #f3eef0;
+            padding: 10px 30px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        
+        .menubar ul li a:hover {
+            background: rgb(20, 20, 21);
+            border-radius: 8px;
+        }
+        
+        .search {
+            position: absolute;
+            right: 90px;
+            top: 170px;
+            width: 170px;
+            height: 45px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            border-radius: 10% 10% 10%/50%50%50%;
+            box-shadow: 1px 1px 2px rgb(237, 146, 146);
+            box-sizing: border-box;
+            border: 1px solid rgb(255, 255, 255);
+        }
+        
+        .searchbox input {
+            width: 95px;
+            height: 19px;
+            border: none;
+            outline: none;
+            background-color: rgba(255, 255, 255, 0.967);
+            font-size: 1rem;
+            padding: 0px 10px;
+        }
+        
+        .searchbox input::placeholder {
+            color: black;
+            letter-spacing: 2px;
+            font-weight: 1rem;
+        }
+        
+        .portion2 {
+            position: absolute;
+            top: 240px;
+        }
+        
+        .portion3 {
+            position: absolute;
+            right: 150px;
+            top: 290px;
+            font-size: 2rem;
+        }
+        
+        .portion2 img {
+            height: 400px;
+        }
+        
+        span {
+            color: rgb(134, 33, 33);
+        }
+        
+        .portion3 h3 {
+            letter-spacing: 1.5px;
+        }
+        
+        .b1 {
+            width: 150px;
+            height: 40px;
+            background-color: rgb(207, 61, 61);
+            box-shadow: 2px 2px 30px rgb(88, 37, 37);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10% 10% 10%/ 50% 50% 50%;
+            margin-top: 20px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            border: transparent;
+        }
+        
+        .b1:hover {
+            color: aliceblue;
+            background-color: rgb(42, 154, 117);
+            transition: all ease 0.8s;
+        }
+        
+        .Foodsection {
+            width: 85%;
+            background-color: #fff;
+            box-shadow: 2px 2px 30px rgb(198, 67, 67);
+            display: flex;
+            margin: 30px auto;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 50px;
+            margin-top: -60px;
+            position: relative;
+            background-size: 1200px;
+            border-radius: 10px;
+        }
+        
+        .Foodsection>h3 {
+            margin: 20px;
+            text-shadow: 2px 2px 30px rgb(238, 106, 106);
+            letter-spacing: 2px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        .Food {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 10px 10px;
+            width: 100%;
+        }
+        
+        .foodbox {
+            width: 300px;
+            height: 380px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 8px;
+            position: relative;
+            margin: 10px 30px;
+        }
+        
+        .foodbox img {
+            height: 160px;
+        }
+        
+        .foodbox p {
+            color: rgb(175, 69, 69);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.3;
+        }
+        
+        .foodbox a {
+            color: rgb(74, 14, 14);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1.2rem;
+        }
+        
+        .btn1 {
+            position: absolute;
+            width: 120px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Courier New', Courier, monospace;
+            left: 50%;
+            bottom: -10%;
+            transform: translateX(-50%);
+            border-radius: 15% 15% 15% 15%/ 50% 50% 50% 50%;
+            background: linear-gradient(120deg, #ed0d0d, #ea4576);
+            color: white;
+            display: none;
+            animation: fade o.3s;
+        }
+        
+        .foodbox a {
+            text-decoration: none;
+        }
+        
+        .foodbox:hover .btn1 {
+            display: flex;
+        }
+        
+        .foodbox:hover {
+            box-shadow: 2px 2px 30px rgb(199, 42, 42);
+            background-color: #f2e9e9;
+        }
+        
+        .foodbox:hover a:last-child {
+            color: white;
+            transition: all ease 0.3s;
+        }
+        
+        .Footer {
+            background: #ed0d0d;
+            height: auto;
+            width: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            padding-top: 40px;
+            color: aliceblue;
+        }
+        
+        .aboutfd {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .aboutfd h3 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            line-height: 2.5rem;
+        }
+        
+        .aboutfd p {
+            max-width: 500px;
+            margin: 10px auto;
+            line-height: 20px;
+            font-size: 20px;
+        }
+        
+        .aboutfd span {
+            color: aquamarine;
+        }
+        
+        .smlist {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem 0 3rem 0;
+        }
+        
+        .smlist li {
+            margin: 0 10px;
+        }
+        
+        .smlist a {
+            text-decoration: none;
+            color: antiquewhite;
+        }
+        
+        .smlist a i {
+            font-size: 1.1rem;
+            transition: color .4s ease;
+        }
+        
+        .smlist a:hover i {
+            color: rgb(29, 41, 180);
+        }
